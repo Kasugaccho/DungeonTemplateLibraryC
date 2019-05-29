@@ -19,6 +19,9 @@
     <Filter Include="ヘッダー ファイル\DTLC">
       <UniqueIdentifier>{b2325112-d7e6-4b7f-bbd2-edb17729dbb1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ヘッダー ファイル\Shape">
+      <UniqueIdentifier>{a317eac2-70fc-4a85-878b-25680151a5e1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.c">
@@ -43,6 +46,9 @@
     </ClInclude>
     <ClInclude Include="..\include\DTLC\Type\Namespace.h">
       <Filter>ヘッダー ファイル\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DTLC\Shape\Rect.h">
+      <Filter>ヘッダー ファイル\Shape</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

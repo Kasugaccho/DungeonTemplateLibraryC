@@ -132,6 +132,7 @@
   <ItemGroup>
     <ClInclude Include="..\include\DTLC.h" />
     <ClInclude Include="..\include\DTLC\DTLC.h" />
+    <ClInclude Include="..\include\DTLC\Shape\Rect.h" />
     <ClInclude Include="..\include\DTLC\Type\Namespace.h" />
     <ClInclude Include="..\include\DTLC\Type\Return.h" />
     <ClInclude Include="..\include\DTLC\Type\SizeT.h" />
