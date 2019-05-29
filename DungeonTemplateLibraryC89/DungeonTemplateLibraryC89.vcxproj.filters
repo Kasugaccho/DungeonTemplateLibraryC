@@ -13,5 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ヘッダー ファイル\Type">
+      <UniqueIdentifier>{d2d449ba-a6ee-45d7-ab5b-fde42cf1e88f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\DTLC">
+      <UniqueIdentifier>{b2325112-d7e6-4b7f-bbd2-edb17729dbb1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.c">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\DTLC\Type\SizeT.h">
+      <Filter>ヘッダー ファイル\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DTLC\DTLC.h">
+      <Filter>ヘッダー ファイル\DTLC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DTLC.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DTLC\Type\Template.h">
+      <Filter>ヘッダー ファイル\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DTLC\Type\Return.h">
+      <Filter>ヘッダー ファイル\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DTLC\Type\Namespace.h">
+      <Filter>ヘッダー ファイル\Type</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
